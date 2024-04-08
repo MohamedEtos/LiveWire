@@ -18,9 +18,11 @@
     </head>
     <body >
 
-        @livewire('show-post')
-        @livewire('inline-c]omp')
-
+        {{-- @livewire('show-post') --}}
+        {{-- @livewire('inline-comp') --}}
+        {{-- @livewire('test-properties',['name'=>'mohamed']) --}}
+        {{-- <livewire:test-properties name='ahmed'> --}}
+            @livewire('actions')
         @livewireScripts()
     </body>
 </html>

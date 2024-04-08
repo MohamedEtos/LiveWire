@@ -8,6 +8,6 @@ class FullComp extends Component
 {
     public function render()
     {
-        return view('livewire.full-comp');
+        return view('livewire.full-comp',['title'=>'mohamed mahrous'])->layout('layouts.default');
     }
 }
